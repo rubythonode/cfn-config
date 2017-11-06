@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 2.8.0 - 2017-11-06
+
+- Fix fetching more than 100 stack resources in lookup.getResorces by using listStackResources instead of describeStackResources
+
 ## 2.7.1 - 2017-06-13
 
 - Avoids re-encryption of `secure:` variables that are specified in a master config file
