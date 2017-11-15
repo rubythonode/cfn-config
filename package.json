@@ -9,9 +9,8 @@
     "type": "git"
   },
   "author": "Mapbox",
-  "version": "2.8.0",
+  "version": "2.7.1",
   "dependencies": {
-    "@mapbox/mock-aws-sdk-js": "0.0.4",
     "aws-sdk": "^2.4.3",
     "cfn-stack-event-stream": "0.0.7",
     "colors": "^1.1.2",
@@ -31,6 +30,7 @@
     "coverage": "nyc --reporter html tape test/*.test.js && opener coverage/index.html"
   },
   "devDependencies": {
+    "@mapbox/mock-aws-sdk-js": "0.0.4",
     "aws-sdk-mock": "1.3.0",
     "eslint": "^2.13.1",
     "nyc": "^6.6.1",
